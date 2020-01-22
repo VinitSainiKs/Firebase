@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userList2Fragment">
+
+    <fragment
+        android:id="@+id/signUpUserFragment"
+        android:name="com.example.firebase.ui.SignUpUserFragment"
+        android:label="SignUpUserFragment" />
+    <fragment
+        android:id="@+id/loginUserFragment"
+        android:name="com.example.firebase.ui.LoginUserFragment"
+        android:label="LoginUserFragment" />
+    <fragment
+        android:id="@+id/addUserFragment"
+        android:name="com.example.firebase.ui.AddUserFragment"
+        android:label="AddUserFragment" />
+    <fragment
+        android:id="@+id/userList2Fragment"
+        android:name="com.example.firebase.ui.UserList2Fragment"
+        android:label="UserList2Fragment" />
+</navigation>
